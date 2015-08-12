@@ -1,0 +1,26 @@
+{
+    "name": "aquy/yii2-d3-widget",
+    "description": "Yii2 helper for creating d3.js",
+    "keywords": ["yii2", "d3", "d3.js", "d3 widget"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "source": "https://github.com/aquy/yii2-d3-widget",
+        "issues": "https://github.com/aquy/yii2-d3-widget/issues"
+    },
+    "authors": [
+        {
+            "name": "aquy",
+            "homepage": "https://github.com/aquy"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/d3": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "aquy\\d3\\": ""
+        }
+    }
+}
